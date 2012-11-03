@@ -1,6 +1,7 @@
 *
 !.bash*
-!.vim*
+!.vim/
+!.vim/**
 !.*rc
 .bash_history
 .viminfo

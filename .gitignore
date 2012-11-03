@@ -1,5 +1,6 @@
-!.vim
-!.vimrc
-.bashrc
-.bash_profile
 *
+!.bash*
+!.vim*
+!.*rc
+.bash_history
+.viminfo

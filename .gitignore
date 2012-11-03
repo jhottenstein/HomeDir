@@ -1,7 +1,8 @@
-*
+/*
 !.bash*
 !.vim/
 !.vim/**
 !.*rc
+!.gitignore
 .bash_history
 .viminfo

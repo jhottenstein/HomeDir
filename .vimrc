@@ -83,4 +83,3 @@ augroup JSTests
     \ :nmap gt <NoP>|
     \ :nmap gT <NoP>
 augroup END
-

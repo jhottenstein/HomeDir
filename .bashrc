@@ -9,5 +9,6 @@ alias ll='ls -l'
 alias la='ls -a'
 alias ctags='/usr/local/bin/ctags'
 alias psql='/Library/PostgreSQL/9.2/bin/psql'
+alias vi='vim'
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting

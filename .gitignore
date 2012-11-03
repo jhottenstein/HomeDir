@@ -1,0 +1,6 @@
+*
+!.bash*
+!.vim*
+!.*rc
+.bash_history
+.viminfo

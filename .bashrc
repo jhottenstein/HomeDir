@@ -1,5 +1,5 @@
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
-export PATH=$PATH:/Library/PostgreSQL/9.2/bin
+export PATH=/Developer/usr/bin:$PATH:/Library/PostgreSQL/9.2/bin
 export PGDATA=/Library/PostgreSQL/9.2/data
 export JSTESTDRIVER_HOME=~/bin
 
@@ -10,5 +10,6 @@ alias la='ls -a'
 alias ctags='/usr/local/bin/ctags'
 alias psql='/Library/PostgreSQL/9.2/bin/psql'
 alias vi='vim'
+alias kdiff='/Applications/kdiff3.app/Contents/MacOS/kdiff3'
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting

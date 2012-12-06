@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/ohottenstein/dev/cribz/lib/cribz'
+let g:netrw_dirhist_2='/Users/ohottenstein/dev/cribz'
+let g:netrw_dirhist_3='/Library/PostgreSQL/9.2/data'
+let g:netrw_dirhist_4='/Users/ohottenstein/dev/cribz/lib/cribz'
+let g:netrw_dirhist_5='/Users/ohottenstein/dev/cribz/lib'
+let g:netrw_dirhist_6='/Users/ohottenstein/dev/cribz/lib/cribz'
+let g:netrw_dirhist_7='/private/etc/apache2/users'
+let g:netrw_dirhist_8='/private/etc/apache2/other'

@@ -2,6 +2,7 @@
 set virtualedit=block       "make block selecting not weird
 set directory=/var/tmp,/tmp "set swap file directory
 set laststatus=2 "always show status line
+set wildmode=list:longest   "make autocomplete not suck
 set showmatch    "show matching paren when typed
 set autowrite    
 

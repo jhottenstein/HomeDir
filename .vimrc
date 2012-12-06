@@ -61,7 +61,15 @@ augroup RubyTests
   autocmd BufRead,BufNewFile *_test.rb,test_*.rb
     \ :nmap gt V:<C-U>!$HOME/.vim/bin/ruby-run-focused-unit-test 
     \ % <C-R>=line("'<")<CR>p <CR>|
-    \ :nmap gT :<C-U>!ruby -Itest %<CR>
+    \ :nmap gT :<C-U>!ruby -I"test:lib" %<CR>
+augroup END
+
+augroup CSource
+  autocmd!
+  autocmd BufRead,BufNewFile *.c
+    \ :nmap gc :!gcc -o %< %<CR>
+    \ :nmap gr :!gcc -o %< % && ./%<<CR>
+    \ :nmap gm :!man 3 <cword><CR> 
 augroup END
 
 " Run JSTestDriver unit tests with gT (for all) or gt (only test under
@@ -75,7 +83,3 @@ augroup JSTests
     \ :nmap gt <NoP>|
     \ :nmap gT <NoP>
 augroup END
-nmap gc :!gcc -o %< %<CR>
-nmap gr :!gcc -o %< % && ./%<<CR>
-nmap gm :!man 3 <cword><CR> 
-

@@ -1,7 +1,9 @@
-*
+/*
 !.bash*
-!.vim*
+!.vim/
+!.vim/**
 !.*rc
+!.gitignore
 .bash_history
 .viminfo
 .kdiff3rc

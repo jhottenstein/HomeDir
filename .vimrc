@@ -73,14 +73,20 @@ augroup CSource
     \ :nmap gm :!man 3 <cword><CR> 
 augroup END
 
-" Run JSTestDriver unit tests with gT (for all) or gt (only test under
+" Run Testacular unit tests with gT (for all) or gt (only test under
 " cursor) in command mode
 augroup JSTests
   autocmd!
-  autocmd BufEnter *Test.js
-    \ :nmap gt :<C-U>!java -jar ~/bin/JsTestDriver-1.3.4.b.jar --tests %:t:r<CR>|
-    \ :nmap gT :<C-U>!java -jar ~/bin/JsTestDriver-1.3.4.b.jar --tests all<CR>
-  autocmd BufLeave *Test.js
+  autocmd BufEnter *Spec.js
+    \ :nmap gt :<C-U>!jake test:units<CR>|
+    \ :nmap gT :<C-U>!jake test:units<CR>
+  autocmd BufLeave *Spec.js
+    \ :nmap gt <NoP>|
+    \ :nmap gT <NoP>
+  autocmd BufEnter *Scenarios.js
+    \ :nmap gt :<C-U>!jake test:single-e2e<CR>|
+    \ :nmap gT :<C-U>!jake test:single-e2e<CR>
+  autocmd BufLeave *Scenarios.js
     \ :nmap gt <NoP>|
     \ :nmap gT <NoP>
 augroup END

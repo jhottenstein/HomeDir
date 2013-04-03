@@ -25,6 +25,7 @@ nnoremap <Space> <PageDown>
 "=====[ Set default tab/indent settings ]========================
 set expandtab
 set tabstop=2
+set shiftwidth=2
 set autoindent
 
 "=====[ Set filetype detection with tab/indent settings]========================

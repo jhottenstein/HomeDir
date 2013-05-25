@@ -6,7 +6,7 @@ export EDITOR=vim
 
 export PATH=/Developer/usr/bin:$PATH
 
-export PATH=$PATH:/Library/PostgreSQL/9.2/bin
+export PATH=/Library/PostgreSQL/9.2/bin:$PATH
 export PGDATA=/Library/PostgreSQL/9.2/data
 
 #export PATH=$PATH:/Library/PostgreSQL/9.1/bin
@@ -24,3 +24,6 @@ alias vi='vim'
 alias kdiff='/Applications/kdiff3.app/Contents/MacOS/kdiff3'
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

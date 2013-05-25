@@ -85,8 +85,8 @@ augroup JSTests
     \ :nmap gt <NoP>|
     \ :nmap gT <NoP>
   autocmd BufEnter *Scenarios.js
-    \ :nmap gt :<C-U>!jake test:single-e2e<CR>|
-    \ :nmap gT :<C-U>!jake test:single-e2e<CR>
+    \ :nmap gt :<C-U>!jake test:e2e<CR>|
+    \ :nmap gT :<C-U>!jake test:e2e<CR>
   autocmd BufLeave *Scenarios.js
     \ :nmap gt <NoP>|
     \ :nmap gT <NoP>

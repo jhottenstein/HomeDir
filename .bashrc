@@ -4,7 +4,7 @@ export PS1='\[\e[1;31m\][\u@\h \W]\$\[\e[0m\] '
 export LC_CTYPE=en_US.UTF-8
 export EDITOR=vim
 
-export PATH=/Developer/usr/bin:$PATH
+export PATH=/usr/local/git/bin:/usr/local/sbin:/Developer/usr/bin:$PATH
 
 export PATH=/Library/PostgreSQL/9.2/bin:$PATH
 export PGDATA=/Library/PostgreSQL/9.2/data

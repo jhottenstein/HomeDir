@@ -1,3 +1,4 @@
+[[ -s "/usr/local/opt/chruby/share/chruby/chruby.sh" ]] && . "/usr/local/opt/chruby/share/chruby/chruby.sh"
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 [[ -s "$HOME/.git-completion.bash" ]] && . "$HOME/.git-completion.bash"
 [[ -s "$HOME/.git-prompt.sh" ]] && . "$HOME/.git-prompt.sh"
@@ -13,9 +14,6 @@ export PGDATA=/Library/PostgreSQL/9.2/data
 
 #export PATH=$PATH:/Library/PostgreSQL/9.1/bin
 #export PGDATA=/Library/PostgreSQL/9.1/data
-
-export JAVA_OPTS=-d32
-export JRUBY_OPTS=--1.9
 
 alias ls="ls -G"
 alias ll="ls -l"

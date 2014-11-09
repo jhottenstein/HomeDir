@@ -25,7 +25,6 @@ alias kdiff='/Applications/kdiff3.app/Contents/MacOS/kdiff3'
 export JAVA_HOME=$(/usr/libexec/java_home)
 export PATH=/Developer/usr/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
-export PATH=/usr/local/git/bin:$PATH
 export PATH=/opt/apache-maven-3.1.1/bin:$PATH
 export PATH=/usr/local/go/bin:$PATH
 

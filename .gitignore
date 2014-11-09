@@ -5,6 +5,7 @@
 !.vim/**
 !.*rc
 !.gitignore
+!.tmux.conf
 .bash_history
 .viminfo
 .kdiff3rc

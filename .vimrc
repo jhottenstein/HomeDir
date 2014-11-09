@@ -35,6 +35,7 @@ filetype plugin indent on
 autocmd FileType make setlocal noexpandtab
 autocmd FileType ruby setlocal shiftwidth=2 tabstop=2 expandtab
 autocmd FileType c setlocal shiftwidth=4 tabstop=4 expandtab cindent
+autocmd FileType cpp setlocal shiftwidth=4 tabstop=4 expandtab cindent
 autocmd FileType html setlocal shiftwidth=2 tabstop=2
 autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
 autocmd FileType css setlocal shiftwidth=2 tabstop=2
@@ -91,3 +92,8 @@ augroup JSTests
     \ :nmap gt <NoP>|
     \ :nmap gT <NoP>
 augroup END
+
+" Treat arduino files like cpp
+
+au BufRead,BufNewFile *.pde set filetype=cpp
+au BufRead,BufNewFile *.ino set filetype=cpp

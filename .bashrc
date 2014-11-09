@@ -9,7 +9,6 @@ export LC_CTYPE=en_US.UTF-8
 export EDITOR=vim
 
 
-export PATH=/Library/PostgreSQL/9.2/bin:$PATH
 export PGDATA=/Library/PostgreSQL/9.2/data
 
 #export PATH=$PATH:/Library/PostgreSQL/9.1/bin
@@ -24,8 +23,12 @@ alias vi='vim'
 alias kdiff='/Applications/kdiff3.app/Contents/MacOS/kdiff3'
 
 export JAVA_HOME=$(/usr/libexec/java_home)
-export PATH=/opt/apache-maven-3.1.1/bin:/usr/local/git/bin:/usr/local/sbin:/Developer/usr/bin:$PATH
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+export PATH=/Library/PostgreSQL/9.2/bin:$PATH
+export PATH=/usr/local/sbin:$PATH
+export PATH=/Developer/usr/bin:$PATH
+export PATH=/usr/local/git/bin:$PATH
+export PATH=/opt/apache-maven-3.1.1/bin:$PATH
+export PATH=/usr/local/go/bin:$PATH
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"

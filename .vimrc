@@ -11,9 +11,9 @@ set hlsearch
 set incsearch
  
 "=====[ Solarized support ]========================
-" 
 syntax on
 set background=dark
+let g:solarized_termcolors=16
 colorscheme solarized
 
 set path+=/usr/local/include
